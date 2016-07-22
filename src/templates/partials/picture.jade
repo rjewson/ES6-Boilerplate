@@ -1,0 +1,10 @@
+mixin picture(image_set)
+  picture
+    if image_set
+      each source in image_set.sources
+        source(srcset='#{source.srcset}', media='#{source.media}')
+      img(srcset="#{image_set.img.srcset}", alt="#{image_set.img.alt}")
+    else
+      source(srcset="http://placehold.it/1366x500", media="(min-width: 992px)")
+      source(srcset="http://placehold.it/992x500", media="(min-width: 768px)")
+      img(srcset="http://placehold.it/768x992", alt="Hero image")

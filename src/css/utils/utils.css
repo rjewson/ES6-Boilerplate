@@ -1,0 +1,11 @@
+.u-clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.u-padding {
+  padding: var(--default_padding);
+}

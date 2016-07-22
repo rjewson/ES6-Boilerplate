@@ -1,0 +1,147 @@
+{
+  "site": {
+    "base": "dist"
+  },
+  "heading": "Hello Assemble",
+  "nav": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "About",
+      "url": "/about.html"
+    },
+    {
+      "title": "Forms",
+      "url": "/forms.html"
+    }
+  ],
+  "visual_menu": {
+    "section_title": "Explore our range",
+    "items": [
+      {
+        "title": "Mobile Phones",
+        "url": "/",
+        "image_set": {
+          "sources": [
+            {
+              "srcset": "http://placehold.it/600x300&text=big",
+              "media": "(min-width: 48rem)"
+            }
+          ],
+          "img": {
+            "srcset": "http://placehold.it/320x100&text=small",
+            "alt": "Mobile Phones"
+          }
+        }
+      },
+      {
+        "title": "Tablets",
+        "url": "/",
+        "image_set": {
+          "sources": [
+            {
+              "srcset": "http://placehold.it/320x300&text=big",
+              "media": "(min-width: 48rem)"
+            }
+          ],
+          "img": {
+            "srcset": "http://placehold.it/320x100&text=small",
+            "alt": "Tablets"
+          }
+        }
+      },
+      {
+        "title": "Smart Home",
+        "url": "/",
+        "image_set": {
+          "sources": [
+            {
+              "srcset": "http://placehold.it/320x300&text=big",
+              "media": "(min-width: 48rem)"
+            }
+          ],
+          "img": {
+            "srcset": "http://placehold.it/320x100&text=small",
+            "alt": "Smart Home"
+          }
+        }
+      },
+      {
+        "title": "Wearables",
+        "url": "/",
+        "image_set": {
+          "sources": [
+            {
+              "srcset": "http://placehold.it/320x300&text=big",
+              "media": "(min-width: 48rem)"
+            }
+          ],
+          "img": {
+            "srcset": "http://placehold.it/320x100&text=small",
+            "alt": "Wearables"
+          }
+        }
+      },
+      {
+        "title": "Accessories",
+        "url": "/",
+        "image_set": {
+          "sources": [
+            {
+              "srcset": "http://placehold.it/320x300&text=big",
+              "media": "(min-width: 48rem)"
+            }
+          ],
+          "img": {
+            "srcset": "http://placehold.it/320x100&text=small",
+            "alt": "Accessories"
+          }
+        }
+      },
+      {
+        "title": "Mobile Broadband",
+        "url": "/",
+        "image_set": {
+          "sources": [
+            {
+              "srcset": "http://placehold.it/320x300&text=big",
+              "media": "(min-width: 48rem)"
+            }
+          ],
+          "img": {
+            "srcset": "http://placehold.it/320x100&text=small",
+            "alt": "Mobile Broadband"
+          }
+        }
+      }
+    ]
+  },
+  "socials": [
+    {
+      "name": "Facebook",
+      "url": "http://www.facebook.com"
+    },
+    {
+      "name": "Twitter",
+      "url": "http://www.twitter.com"
+    },
+    {
+      "name": "Google Plus",
+      "url": "http://plus.google.com"
+    }
+  ],
+  "footer": {
+    "nav": [
+      {
+        "title": "Products",
+        "url": "/"
+      },
+      {
+        "title": "Support",
+        "url": "/"
+      }
+    ]
+  }
+}

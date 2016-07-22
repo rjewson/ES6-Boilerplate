@@ -1,0 +1,30 @@
+/*
+@styleguide
+
+@title Icons
+
+Use the icon classes on `<span>` elements. The second class applied should contain the name of the original icon's .svg file.
+
+**Social Icons**
+
+<span class="icon icon-facebook"></span> &nbsp; <span class="icon icon-twitter"></span> &nbsp; <span class="icon icon-google-plus"></span>
+
+    span(class='icon icon-facebook')
+*/
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.socials-item {
+  margin: 0 20px;
+
+  a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+}

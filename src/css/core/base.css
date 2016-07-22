@@ -1,0 +1,35 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--default_font_size);
+  font-family: var(--font_body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.4;
+  letter-spacing: 8px;
+}
+
+a {
+  color: var(--black);
+  font-size: 11px;
+  font-family: var(--font_ctas);
+  letter-spacing: 2px;
+
+  &:hover {
+    color: var(--red);
+  }
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'FrutigerNext';
+  src: url('../fonts/FrutigerNext.eot');
+  src: url('../fonts/FrutigerNext.eot?#iefix') format('eot'),
+    url('../fonts/FrutigerNext.woff') format('woff'),
+    url('../fonts/FrutigerNext.ttf') format('truetype'),
+    url('../fonts/FrutigerNext.svg#FrutigerNext') format('svg');
+}
+
+@font-face {
+  font-family: 'FrutigerNext-Lt-Medium';
+  src: url('../fonts/FrutigerNext-Lt-Medium.eot');
+  src: url('../fonts/FrutigerNext-Lt-Medium.eot?#iefix') format('eot'),
+    url('../fonts/FrutigerNext-Lt-Medium.woff') format('woff'),
+    url('../fonts/FrutigerNext-Lt-Medium.ttf') format('truetype'),
+    url('../fonts/FrutigerNext-Lt-Medium.svg#FrutigerNext-Lt-Medium') format('svg');
+}

@@ -1,0 +1,8 @@
+- var items = data.visual_menu.items
+
+.visual-menu
+  h4.visual-menu-label!= data.visual_menu.section_title
+  each item, index in items
+    +box(item)(class='box--visual-menu child-#{index+1}')
+      h5.box-content-heading= item.title
+      a.box-link(href='#{item.url}')

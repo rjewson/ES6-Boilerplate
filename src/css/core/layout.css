@@ -1,0 +1,26 @@
+.main-container {
+  max-width: var(--site_max_width);
+  margin: 0 auto;
+}
+
+.hero {
+  .box-content {
+    color: #fff;
+    text-align: center;
+  }
+
+  .box-content-heading {
+    margin-bottom: 2.5em;
+  }
+}
+
+.visual-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.visual-menu-label {
+  display: none;
+}

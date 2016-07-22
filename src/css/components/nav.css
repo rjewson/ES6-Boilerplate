@@ -1,0 +1,29 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--default_padding);
+}
+
+.logo {
+  height: 25px;
+  margin-top: -5px;
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav-item {
+  margin: 0 1em;
+}
+
+.main-header-right {
+  margin-left: auto;
+}

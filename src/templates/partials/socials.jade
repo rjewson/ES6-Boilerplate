@@ -1,0 +1,8 @@
+- var socials = data.socials
+
+ul.socials
+  each social in socials
+    li.socials-item
+      a(href=social.url, title=social.name)
+        - var icon = social.name.toLowerCase().replace(/\s/g, '-')
+        span(class='icon icon-#{icon}')

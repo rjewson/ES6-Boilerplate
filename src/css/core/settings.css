@@ -1,0 +1,16 @@
+/* @start color */
+:root {
+  /* colors */
+  --black: #000;
+  --red: #f42b39;
+  --grey: #cdcdcd;
+  /* sizes */
+  --site_max_width: 1366px;
+  --default_padding: 20px;
+  --default_font_size: 12px;
+  /* fonts */
+  --font_standard: Helvetica, Arial, sans-serif;
+  --font_body: FrutigerNext, Helvetica, Arial, sans-serif;
+  --font_ctas: FrutigerNext-Lt-Medium, Helvetica, Arial, sans-serif;
+}
+/* @end color */

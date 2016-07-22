@@ -1,0 +1,70 @@
+/*
+@styleguide
+
+@title Buttons
+
+Use the button classes on and `<a>`, `<button>`, `<input>` elements.
+
+<button class="button button--large button--red">Red Button</button>
+
+    button.button.button--large.button--red Red Button
+
+<button class="button button--large button--red button--ext">External</button>
+
+    button.button.button--large.button--red.button--ext External
+
+<button class="button button--large button--white">White Button</button>
+
+     button.button.button--large.button--white White Button
+
+<button class="button button--large button--black">Black Button</button>
+
+     button.button.button--large.button--black Black Button
+*/
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25em 1.75em;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-family: var(--font_ctas);
+  font-size: .688em;
+  font-weight: bold;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.button--large {
+  min-width: 8.75rem;
+  min-height: 2.5em;
+}
+
+.button--red {
+  color: #fff;
+  background-color: var(--red);
+}
+
+.button--black {
+  color: #fff;
+  background-color: var(--black);
+}
+
+.button--white {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.button--ext {
+  min-width: 10rem;
+
+  &:after {
+    content: '\2750';
+    position: absolute;
+    top: .25em;
+    right: .25em;
+    font-size: 1.5em;
+  }
+}

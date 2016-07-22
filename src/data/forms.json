@@ -1,0 +1,11 @@
+{
+  "register":{
+      "title":"Register",
+      "product_details": {
+          "title": "YOUR PRODUCT DETAIL"
+      },
+      "user_details": {
+          "title": "YOUR DETAIL"
+      }
+  }
+}

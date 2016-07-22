@@ -1,0 +1,16 @@
+.main-header
+
+  a(href='/', class='logo')
+    img(src='images/logo.png')
+
+  //- mobile nav markup
+  nav.hidden-sm
+    ul.main-nav
+      each item in data.nav
+        li.main-nav-item
+          a(href='#{item.url}')= item.title
+
+  //- large nav markup
+  .main-header-right.hidden-sm
+    nav
+      a(href="#") UK

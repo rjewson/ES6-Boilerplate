@@ -1,0 +1,125 @@
+{
+  "title": "Homepage",
+  "hero": {
+    "title": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUER",
+    "copy": "",
+    "cta": {
+      "text": "Explore",
+      "url": "/"
+    },
+    "image_set": {
+      "sources": [
+        {
+          "srcset": "http://placehold.it/1366x500",
+          "media": "(min-width: 62rem)"
+        },
+        {
+          "srcset": "http://placehold.it/992x500",
+          "media": "(min-width: 48rem)"
+        }
+      ],
+      "img": {
+        "srcset": "http://placehold.it/768x992",
+        "alt": "Hero"
+      }
+    }
+  },
+  "product_promos": {
+    "full": {
+      "title": "Bold. Brilliant Colours.",
+      "copy": "With its stunning 5.2'' FHP IPS display, the Huawei P9 features the only smartphone screen to be compliant with the DCI-P3 colour gamut system used in the movies.",
+      "cta": {
+        "text": "Explore the Huawei P9",
+        "url": ""
+      },
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "http://placehold.it/1366x500/ffffff",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "http://placehold.it/992x500/ffffff",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "http://placehold.it/768x992/ffffff",
+          "alt": "Promo Full"
+        }
+      }
+    },
+    "lifestyle": {
+      "title": "<span>NEXUS 6 P</span> ELEGANTLY DESIGNED, PURE ANDROID <sup>TM</sup>",
+      "copy": "",
+      "cta": {
+        "text": "",
+        "url": ""
+      },
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "http://placehold.it/1366x500/f5f5f5",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "http://placehold.it/992x500/f5f5f5",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "http://placehold.it/768x992/f5f5f5",
+          "alt": "Promo Full"
+        }
+      }
+    },
+    "product": {
+      "title": "<span>G8</span> LIFE HAS NO REPLAY.",
+      "copy": "",
+      "cta": {
+        "text": "",
+        "url": ""
+      },
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "http://placehold.it/1366x500/431C6B",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "http://placehold.it/992x500/431C6B",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "http://placehold.it/768x992/431C6B",
+          "alt": "Promo Full"
+        }
+      }
+    },
+    "quote": {
+      "title": "YOU HAVE TO KNOW THE RULES BEFORE YOU KNOW HOW TO BREAK THEM",
+      "copy": "Sid Vicious",
+      "cta": {
+        "text": "Find out more",
+        "url": ""
+      },
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "http://placehold.it/1366x500/000000",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "http://placehold.it/992x500/000000",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "http://placehold.it/768x500/000000",
+          "alt": "Promo Full"
+        }
+      }
+    }
+  }
+}

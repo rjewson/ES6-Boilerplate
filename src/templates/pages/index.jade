@@ -1,0 +1,29 @@
+extends src/templates/layouts/default.jade
+
+block title
+  title= index.title
+
+block content
+
+  section.hero
+    +box(index.hero)
+      h1.box-content-heading!= index.hero.title
+      button.button.button--large.button--red!= index.hero.cta.text
+
+  +box(index.product_promos.full)(class='box--promo-full')
+    h3.box-content-heading= index.product_promos.full.title
+    p= index.product_promos.full.copy
+    button.button.button--large.button--white= index.product_promos.full.cta.text
+
+  .box-group
+    +box(index.product_promos.lifestyle)(class='box--small')
+      h3.box-content-heading!= index.product_promos.lifestyle.title
+    +box(index.product_promos.product)(class='box--small')
+      h3.box-content-heading!= index.product_promos.product.title
+
+  +box(index.product_promos.quote)(class="box--no-bg")
+    h3.box-content-heading!= index.product_promos.quote.title
+    p.quote-author!= index.product_promos.quote.copy
+    button.button.button--large.button--white!= index.product_promos.quote.cta.text
+
+  include src/templates/partials/visual-menu.jade

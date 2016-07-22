@@ -1,0 +1,9 @@
+include picture.jade
+
+mixin box(id)
+  .box&attributes(attributes)
+    .box-content
+        if block
+          block
+    .box-background
+      +picture(id.image_set)

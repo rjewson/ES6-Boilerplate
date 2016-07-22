@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "color-hex-case": [ "lower", {
+      "message": "Lowercase letters are easier to distinguish from numbers"
+    } ],
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-space-after": "always",
+    "indentation": 2,
+    "string-quotes": "single"
+  }
+}

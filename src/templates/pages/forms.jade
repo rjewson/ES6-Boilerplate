@@ -1,0 +1,31 @@
+
+extends src/templates/layouts/default.jade
+
+
+block content
+    div.form-container
+        form.form(id="register")
+            +collapseableModule('register',forms.register.title, false)
+                div.form-section YOUR PRODUCT DETAILS
+                +formTextField('serialNum','Serial')
+                +formTextField('imei','IMEI')
+                +formDropdown('model','Model')
+                +formDropdown('color','Color')
+                +formDropdown('store','Store')
+                div.form-section YOUR DETAILS
+                +formTextField('name','Name')
+                +formTextField('surname','Surname')
+                +formTextField('address','Address')(class="fw")
+                +formTextField('city','City')
+                +formTextField('postalcode','Postcode')
+                +formTextField('phone','Tel')
+                +formTextField('email','Email')
+                +formTextField('confirmemail','Confirm Email')
+            +collapseableModule('privacy','Privacy Policy', false)
+                +formRadio('privacyGroup', 1, 'Privacy Group Option 1 Privacy Group Option 1 Privacy Group Option 1')
+                +formRadio('privacyGroup', 2, 'Privacy Group Option 2 Privacy Group Option 2 Privacy Group Option 2')
+                +formRadio('privacyGroup', 3, 'Privacy Group Option 3 Privacy Group Option 3 Privacy Group Option 3')
+                +formRadio('privacyGroup', 4, 'Privacy Group Option 4 Privacy Group Option 4 Privacy Group Option 4')
+                +formCheckbox('newsletterOptin', 'Subscribe to newsletter')
+                +formCheckbox('termsOptin', 'Agree to Terms and Conditions')
+

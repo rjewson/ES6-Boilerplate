@@ -1,0 +1,40 @@
+footer.main-footer
+
+  include socials.jade
+
+  //- mobile nav markup
+  nav.footer-nav.hidden-md
+    ul.footer-nav-list
+      each item in data.footer.nav
+        li
+          a(href='#{item.url}')= item.title
+
+  //- large nav markup
+  nav.footer-nav-expanded.hidden-sm
+    ul.footer-nav-list
+      each item, index in data.footer.nav
+        li(class='col col-#{index+1}')
+          a(href='#{item.url}')= item.title
+          ul.footer-nav-list.footer-nav-list--sub
+            li
+              a(href='#') Sub page
+            li
+              a(href='#') Sub page
+            li
+              a(href='#') Sub page
+            li
+              a(href='#') Sub page
+
+  .footer-store-locator
+    a(href='#') UK
+    span.hidden-sm Find a store
+
+  .footer-other
+    ul.hidden-sm
+      li.footer-other-link
+        a(href='#') Site map
+      li.footer-other-link
+        a(href='#') Certification
+      li.footer-other-link
+        a(href='#') Terms of use
+    span &copy;2016 Huawei Technologies Co. 1998-2016. All rights reserved.

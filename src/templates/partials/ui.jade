@@ -1,0 +1,31 @@
+mixin formTextField(id, label, error)
+    div.form-input-text&attributes(attributes)
+        input(placeholder="#{label}", type="text", id="#{id}", name="#{id}")
+        span.error
+
+mixin formDropdown(id, label)
+    div.form-input-select&attributes(attributes)
+        select.selectpicker
+            option #{label}
+            option Item 1
+            option Item 2
+
+mixin formRadio(id, value, label)
+    div.form-input-radio&attributes(attributes)
+        input(type="radio", value="#{value}", id="#{id + value}", name="#{id}")
+        label(for="#{id + value}") #{label}
+
+mixin formCheckbox(id, label)
+    div.form-input-checkbox&attributes(attributes)
+        input(type="checkbox", name="#{id}", id="#{id}")
+        label(for="#{id}") #{label}
+
+
+mixin collapseableModule(id, label, open)
+    div.collapseable-container
+        input.collapseable(type="checkbox", id="collapse-#{id}", , checked=(open === true ? "checked" : undefined))
+        label(for="collapse-#{id}") #{label}
+        div.collapseable-content
+            div
+                if block
+                    block
